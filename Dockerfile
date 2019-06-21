@@ -6,5 +6,5 @@ RUN rm -rf /var/www/html/*
 ADD . /var/www/html
 ENTRYPOINT apachectl -D FOREGROUND
 ENV name jenkins-test
-
+ENV TZ=Asia/Kolkata
 
